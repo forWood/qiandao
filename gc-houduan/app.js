@@ -41,6 +41,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+//port
 app.listen(3000);
 console.log('success listen at port: 3000');
 module.exports = app;
