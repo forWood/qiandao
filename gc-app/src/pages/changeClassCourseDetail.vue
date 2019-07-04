@@ -81,6 +81,7 @@ export default {
         }
       }).then(response=>{
        // console.log(response);
+  // console.log(response);
         if(response.status==204){
           console.log('班课号不存在，不能加入班课');
           this.$toast({
